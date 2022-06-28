@@ -7,6 +7,6 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgrespw
     volumes:
-      - ./pgdata:/var/lib/postgresql/data
+      - ./database/pgdata:/var/lib/postgresql/data
     ports:
       - '5432:5432'
